@@ -1,6 +1,6 @@
 ﻿namespace DocSourcing
 {
-    public class FooDocState
+    public class FooMemento
     {
         public int Balance { get; set; }
     }

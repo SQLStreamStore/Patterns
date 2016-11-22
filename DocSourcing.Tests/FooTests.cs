@@ -8,23 +8,23 @@
     using SqlStreamStore;
     using Xunit;
 
-    public class FooDocTests : IDisposable
+    public class FooTests : IDisposable
     {
         private readonly InMemoryStreamStore _streamStore;
-        private readonly FooDocRepository _repository;
+        private readonly FooRepository _repository;
 
-        public FooDocTests()
+        public FooTests()
         {
             _streamStore = new InMemoryStreamStore();
             var serializerSettings = new JsonSerializerSettings();
-            _repository = new FooDocRepository(_streamStore, serializerSettings);
+            _repository = new FooRepository(_streamStore, serializerSettings);
         }
 
         [Fact]
         public async Task Can_save_and_retrieve_doc()
         {
             const string id = "id-1";
-            var doc = new FooDoc(id);
+            var doc = new Foo(id);
             doc.Add(2);
             int balance = doc.Balance;
 
@@ -39,7 +39,7 @@
         public async Task Can_update_doc()
         {
             const string id = "id-1";
-            var doc = new FooDoc(id);
+            var doc = new Foo(id);
             doc.Add(2);
             await _repository.Save(doc);
 

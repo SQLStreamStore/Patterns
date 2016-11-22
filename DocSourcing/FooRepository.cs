@@ -8,13 +8,13 @@
     using SqlStreamStore;
     using SqlStreamStore.Streams;
 
-    public class FooDocRepository
+    public class FooRepository
     {
         private readonly JsonSerializerSettings _serializerSettings;
         private readonly int _maxCount;
         private readonly IStreamStore _streamStore;
 
-        public FooDocRepository(
+        public FooRepository(
             IStreamStore streamStore,
             JsonSerializerSettings serializerSettings,
             int maxCount = 10)
@@ -24,7 +24,7 @@
             _maxCount = maxCount;
         }
 
-        public async Task<FooDoc> Load(
+        public async Task<Foo> Load(
             string id,
             CancellationToken cancellationToken = default(CancellationToken))
         {
@@ -35,12 +35,12 @@
             }
             var streamMessage = page.Messages.First();
             var jsonData = await streamMessage.GetJsonData(cancellationToken);
-            var state = JsonConvert.DeserializeObject<FooDocState>(jsonData, _serializerSettings);
-            return new FooDoc(id, state, page.LastStreamVersion);
+            var state = JsonConvert.DeserializeObject<FooMemento>(jsonData, _serializerSettings);
+            return new Foo(id, state, page.LastStreamVersion);
         }
 
         public async Task Save(
-            FooDoc streamDocument,
+            Foo streamDocument,
             CancellationToken cancellationToken = default(CancellationToken))
         {
             var state = streamDocument.GetState();

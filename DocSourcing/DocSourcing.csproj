@@ -43,9 +43,9 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FooDoc.cs" />
-    <Compile Include="FooDocState.cs" />
-    <Compile Include="FooDocRepository.cs" />
+    <Compile Include="Foo.cs" />
+    <Compile Include="FooMemento.cs" />
+    <Compile Include="FooRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

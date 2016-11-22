@@ -1,13 +1,13 @@
 ﻿namespace DocSourcing
 {
-    public class FooDoc
+    public class Foo
     {
-        public FooDoc(string id)
+        public Foo(string id)
         {
             Id = id;
         }
 
-        public FooDoc(string id, FooDocState state, int originalVersion)
+        public Foo(string id, FooMemento state, int originalVersion)
         {
             Id = id;
             Balance = state.Balance;
@@ -25,9 +25,9 @@
             Balance = Balance + i;
         }
 
-        internal FooDocState GetState()
+        internal FooMemento GetState()
         {
-            return new FooDocState
+            return new FooMemento
             {
                 Balance = Balance
             };
