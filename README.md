@@ -25,4 +25,4 @@ A recepie for storing Documents in SQL StreamStore.
  
 ### Explore
 
-Best thing to do is clone the repo and step through the [tests](https://github.com/damianh/DocSourcing/blob/master/DocSourcing.Tests/FooDocTests.cs).
+Best thing to do is clone the repo and [step through the tests](https://github.com/damianh/DocSourcing/blob/master/DocSourcing.Tests/FooDocTests.cs).
