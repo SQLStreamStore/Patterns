@@ -25,8 +25,8 @@ A recepie for storing Documents in SQL StreamStore. Its bit like a key-value sto
  
 ### Explore
 
- - The [document object](https://github.com/damianh/DocSourcing)
- - ... it's [state representation](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/FooDocState.cs)
- - ... the [repository to load and save it](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/FooDocRepository.cs).
+ - The [object](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/Foo.cs) that is stored and retireved.
+ - ... it's [memento representation](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/FooMemento.cs)
+ - ... the [repository to load and save it](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/FooRepository.cs).
 
-Best thing to do is clone the repo and [step through the tests](https://github.com/damianh/DocSourcing/blob/master/DocSourcing.Tests/FooDocTests.cs).
+Best thing to do is clone the repo and [step through the tests](https://github.com/damianh/DocSourcing/blob/master/DocSourcing.Tests/FooTests.cs).
