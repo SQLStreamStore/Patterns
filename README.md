@@ -10,7 +10,6 @@ A recepie for storing Documents in SQL StreamStore.
  - The model doesn't care about domain events ( or "business decisions"). The final state is only thing interesting.
  - You want to retain some or all previous versions.
  - You want the _option_ to execute a query against your document without needing a projection.
- - Is in a non-collaborative area.
  
 ### How
 
