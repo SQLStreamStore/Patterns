@@ -11,7 +11,7 @@ A recepie for storing Documents in SQL StreamStore.
  - You want to retain some or all previous versions.
  - You want the _option_ to execute a query against your document without needing a projection.
  
-### How
+### How?
 
  - Store the document state as the message itself in a stream.
  - StreamMetadata decides how many previous copies to retain.
@@ -22,3 +22,7 @@ A recepie for storing Documents in SQL StreamStore.
  - User settings / system configuration etc.
  - Data coming from external systems where they are the source of truth.
  - Snapshots for streams that are (domain) event based.
+ 
+### Explore
+
+Best thing to do is clone the repo and step through the [tests](https://github.com/damianh/DocSourcing/blob/master/DocSourcing.Tests/FooDocTests.cs).
