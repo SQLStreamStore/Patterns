@@ -7,7 +7,7 @@ A recepie for storing Documents in SQL StreamStore.
 ### Why?
 
  - The model is CRUD-Y, you don't want to use an RDMBS but want to use CQRS, streams and projections.
- - The model doesn't care about domain events ( or "business decisions"). The final state is only thing interesting.
+ - The model doesn't care about domain events (or "business decisions"). The intermediate / final states are the only interesting things.
  - You want to retain some or all previous versions.
  - You want the _option_ to execute a query against your document without needing a projection.
  
