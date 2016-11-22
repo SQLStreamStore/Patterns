@@ -2,7 +2,7 @@
 
 _(Sorry for the lame name. If anyone comes up with anything better, let me know.)_
 
-A recepie for storing Documents in SQL StreamStore. 
+A recepie for storing Documents in SQL StreamStore. Its bit like a key-value store with versions. 
 
 ### Why?
 
