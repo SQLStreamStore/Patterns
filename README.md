@@ -14,7 +14,7 @@ A recepie for storing Documents in SQL StreamStore.
 ### How?
 
  - Store the document state as the message itself in a stream.
- - StreamMetadata decides how many previous copies to retain.
+ - Stream metadata decides how many previous copies to retain.
  - Loading a document is reading stream backwards by one message only.
  
 ### Use cases
