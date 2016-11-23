@@ -2,7 +2,7 @@
 
 _(Sorry for the lame name. If anyone comes up with anything better, let me know.)_
 
-A recepie for storing Documents in SQL StreamStore. Its bit like a key-value store with versions. 
+A recipe for storing Documents in SQL StreamStore. Its bit like a key-value store with versions. 
 
 ### Why?
 
@@ -25,7 +25,7 @@ A recepie for storing Documents in SQL StreamStore. Its bit like a key-value sto
  
 ### Explore
 
- - The [object](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/Foo.cs) that is stored and retireved.
+ - The [object](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/Foo.cs) that is stored and retrieved.
  - ... it's [memento representation](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/FooMemento.cs)
  - ... the [repository to load and save it](https://github.com/damianh/DocSourcing/blob/master/DocSourcing/FooRepository.cs).
 
