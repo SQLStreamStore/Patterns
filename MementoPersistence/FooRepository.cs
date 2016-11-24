@@ -1,4 +1,4 @@
-﻿namespace DocSourcing.Infrastructure
+﻿namespace DocSourcing
 {
     using System;
     using System.Linq;

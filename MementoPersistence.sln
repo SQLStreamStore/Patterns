@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocSourcing", "DocSourcing\DocSourcing.csproj", "{B85B2444-8C2A-4CB4-A157-9DBD98F54D15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPersistence", "MementoPersistence\MementoPersistence.csproj", "{B85B2444-8C2A-4CB4-A157-9DBD98F54D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocSourcing.Tests", "DocSourcing.Tests\DocSourcing.Tests.csproj", "{2497DA52-DF2C-4A65-BB5B-08BC59B0B7DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPersistence.Tests", "MementoPersistence.Tests\MementoPersistence.Tests.csproj", "{2497DA52-DF2C-4A65-BB5B-08BC59B0B7DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
