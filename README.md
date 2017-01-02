@@ -1,6 +1,6 @@
 # Memento Persistence
 
-A recepie for persisting Mementos (documents / snapshots) in SQL Stream Store. It's a bit like a key-value store with versions. 
+A recipe for persisting Mementos (documents / snapshots) in SQL Stream Store. It's a bit like a key-value store with versions. 
 
 ### Why?
 
@@ -23,7 +23,7 @@ A recepie for persisting Mementos (documents / snapshots) in SQL Stream Store. I
  
 ### Explore
 
- - The [object](https://github.com/damianh//blob/master/MementoPersistence/Foo.cs) that is stored and retireved.
+ - The [object](https://github.com/damianh//blob/master/MementoPersistence/Foo.cs) that is stored and retrieved.
  - ... it's [memento representation](https://github.com/damianh/MementoPersistence/blob/master/MementoPersistence/FooMemento.cs)
  - ... the [repository to load and save it](https://github.com/damianh/MementoPersistence/blob/master/MementoPersistence/FooRepository.cs).
 
