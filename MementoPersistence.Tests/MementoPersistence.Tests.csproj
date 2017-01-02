@@ -7,8 +7,8 @@
     <ProjectGuid>{2497DA52-DF2C-4A65-BB5B-08BC59B0B7DC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DocSourcing</RootNamespace>
-    <AssemblyName>DocSourcing.Tests</AssemblyName>
+    <RootNamespace>MementoPersistence</RootNamespace>
+    <AssemblyName>MementoPersistence.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,7 +44,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
       <HintPath>..\packages\xunit.abstractions.2.0.0\lib\net35\xunit.abstractions.dll</HintPath>
       <Private>True</Private>
@@ -66,7 +65,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DocSourcing\DocSourcing.csproj">
+    <ProjectReference Include="..\MementoPersistence\MementoPersistence.csproj">
       <Project>{B85B2444-8C2A-4CB4-A157-9DBD98F54D15}</Project>
       <Name>DocSourcing</Name>
     </ProjectReference>

@@ -1,8 +1,8 @@
-﻿namespace DocSourcing
+﻿namespace MementoPersistence
 {
     using System;
     using System.Threading.Tasks;
-    using DocSourcing.Infrastructure;
+    using DocSourcing;
     using Newtonsoft.Json;
     using Shouldly;
     using SqlStreamStore;
