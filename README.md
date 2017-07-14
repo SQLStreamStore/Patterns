@@ -17,7 +17,7 @@ A recipe for persisting Mementos (documents / snapshots) in SQL Stream Store. It
  
 ### Use cases
 
- - User settings / system configuration etc.
+ - User settings, system configuration, documents etc.
  - Data coming from external systems where they are the source of truth.
  - Snapshots for streams that are (domain) event based.
  
