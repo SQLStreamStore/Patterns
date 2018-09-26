@@ -23,8 +23,8 @@ A recipe for persisting Mementos (documents / snapshots) in SQL Stream Store. It
  
 ### Explore
 
- - The [object](https://github.com/damianh/MementoPersistence/blob/master/MementoPersistence/Foo.cs) that is stored and retrieved.
- - ... it's [memento representation](https://github.com/damianh/MementoPersistence/blob/master/MementoPersistence/FooMemento.cs)
- - ... the [repository to load and save it](https://github.com/damianh/MementoPersistence/blob/master/MementoPersistence/FooRepository.cs).
+ - The [object](MementoPersistence/Foo.cs) that is stored and retrieved.
+ - ... it's [memento representation](MementoPersistence/FooMemento.cs)
+ - ... the [repository to load and save it](MementoPersistence/FooRepository.cs).
 
-Best thing to do is clone the repo and [step through the tests](https://github.com/damianh/MementoPersistence/blob/master/MementoPersistence.Tests/FooTests.cs).
+Best thing to do is clone the repo and [step through the tests](MementoPersistence.Tests/FooTests.cs).
